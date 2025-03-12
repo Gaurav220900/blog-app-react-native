@@ -10,7 +10,7 @@ const IndexScreen = () => {
     
     return (
         <View>
-            <Button title='Add new Blog' onPress={addBlogPost}/>
+            
 
             <FlatList 
             data={state}
@@ -32,6 +32,7 @@ const IndexScreen = () => {
     )
     
 };
+
 
 const styles = StyleSheet.create({
     container : {
